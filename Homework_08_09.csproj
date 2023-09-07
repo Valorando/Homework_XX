@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-открыть-файл-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-сохранить-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-регистр-заглавной-буквы-предложения-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цвет-текста-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цвет-границы-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цвет-заливки-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-выровнять-по-левому-краю-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-выровнять-по-центру-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-выровнять-по-правому-краю-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
